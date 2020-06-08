@@ -1,19 +1,19 @@
 {
-  "name": "VikasPlugin", // Your Plugin Name (CamalCased)
-  "version": "0.1", // Plugin version.
-  "description": "Your Plugin Description", // What you want the desc to say.
+  "name": "VikasPlugin",
+  "version": "0.0.1",
+  "description": "Your Plugin Description",
   "cordova": {
-    "id": "cordova-plugin-VikasPlugin", // same as your Github Repo.
-    "platforms": [ // The platforms you're targeting. 
-      "ios" // We're only targeting IOS for this tutorial.
+    "id": "cordova-plugin-VikasPlugin",
+    "platforms": [ 
+      "ios"
     ]
   },
-  "keywords": [ // Keywords that your plugin will be searched by. 
+  "keywords": [
     "cordova",
     "camera",
     "ecosystem:cordova",
-    "cordova-ios",
+    "cordova-ios"
   ],
-  "author": "Vikas", // Your name
-  "license": "" // The license you want (recommended to be MIT)
+  "author": "Vikas", 
+  "license": "zczxc" 
 }
