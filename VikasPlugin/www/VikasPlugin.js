@@ -5,7 +5,7 @@ var exec = require('cordova/exec');
 // };
 
 var PLUGIN_NAME = "VikasPlugin";
-var VikasPlugin = function() {};
+var VikasPluginOriginal = function() {};
 VikasPlugin.echo = function(arg0, onSuccess, onError) {
 	// body...
 	exec(onSuccess, onError, "VikasPlugin", "echo", [arg0]);
@@ -22,4 +22,5 @@ VikasPlugin.echo = function(arg0, onSuccess, onError) {
 //     error('Empty message!');
 //   }
 // };
+var VikasPlugin = new VikasPluginOriginal();
 module.exports = VikasPlugin;
