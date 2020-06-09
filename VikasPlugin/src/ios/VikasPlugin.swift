@@ -5,6 +5,12 @@
 //  Created by Qburst on 08/06/20.
 //
 @objc(VikasPlugin) class VikasPlugin : CDVPlugin {
+override func pluginInitialize() {
+
+           super.pluginInitialize();
+
+       }
+ @objc(echo:)
   func echo(command: CDVInvokedUrlCommand) {
     var pluginResult = CDVPluginResult(
       status: CDVCommandStatus_ERROR
